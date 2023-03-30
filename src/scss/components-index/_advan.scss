@@ -1,0 +1,97 @@
+.advant {
+
+    // .advant__departament
+
+    &__departament {
+        background-color: #0098be;
+        color: #002d44;
+        font-weight: 500;
+        padding: 50px 100px 100px 290px;
+        
+    }
+
+    // .advant__title
+
+    &__title {
+        color: white;
+        font-size: 16px;
+        border-bottom: 2px solid rgba(255,255,255,.2);
+        padding-bottom: 5%;
+    }
+
+    // .advant__item
+
+    &__item {
+    }
+
+    // .advant__list
+
+    &__list {
+        padding-top: 15%;
+        max-width: 250px;
+    }
+
+    // .advant__link
+
+    &__link {
+        font-size: 18px;
+        transition: 0.5s;
+        
+    }
+    &__link:hover {
+        color: white;
+        transition: 0.5s;
+    }
+
+    // .advant__button
+
+    &__button {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+    }
+
+    // .advant__container
+
+    &__container {
+        padding-left: 0;
+    }
+
+    // .advant__content
+
+    &__content {
+
+        display: flex;
+
+    }
+
+    // .advant__card
+    &__cards{
+        padding-left: 4%;
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        row-gap: 45px;
+        column-gap: 45px;
+    }
+    &__card:hover {
+        transition: 0.5s;
+        box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25);
+
+    }
+    &__card>p {
+        padding-top: 3%;
+        color: #222;
+
+    }
+    &__card{
+        transition: 0.5s;
+        border: 1px solid #d1d1d1;
+        padding: 20px;
+    }
+}
+.bx-lemon{
+    color: #4fb5e6;
+    font-size: 64px;
+}
+

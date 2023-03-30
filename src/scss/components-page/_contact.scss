@@ -1,0 +1,113 @@
+
+
+
+.contact {
+
+
+    // .contact__container
+
+    &__container {
+    }
+
+    // .contact__content
+    &__address{
+        padding-top: 3%;
+        display: flex;
+    }
+    &__address>p{
+
+        padding-top: 2px;
+    }
+    &__item {
+        padding-top: 3%;
+        padding-bottom: 5%;
+        font-weight: 700;
+    }
+    &__connection {
+
+        padding-top: 1%;
+        display: flex; 
+        align-items: center;
+        
+    }
+    &__connection>p{
+        font-style: 18px;
+    }
+    &__connection>a {
+       padding-left: 1%;
+        font-size: 16px;
+        color: #0098be;
+        font-weight: 700;
+       
+    }
+}
+.guide {
+
+    // .guide__title
+
+    &__title {
+    }
+    &__table{
+        margin-top: 5%;
+        
+        width: 100%;
+        background-color: #4fb5e6;
+        text-align: center;
+        border-collapse: collapse;
+
+    }
+    th{
+        color: white;
+        text-align: center;
+        background-color: #0098be;
+        padding: 20px;
+        border: 1px solid #4fb5e6;
+    }
+    tr:hover{
+        background-color: #69bbe0;
+    }
+    td{
+        color: white;
+         border: 1px solid #0098be;
+         padding: 20px 10px;
+    }
+
+}
+.maps {
+
+    // .maps__title
+
+    &__title {
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    &__item{
+        display: flex;
+    }
+
+    // .maps__text
+
+    &__text>p{
+        line-height: 30px;
+
+
+    }
+
+    // .maps__google
+
+    &__google {
+        overflow:hidden;
+        
+        padding: 20% 30%;
+        position:relative;
+        height:0;
+    }
+    &__google iframe{
+        left:0;
+        top:0;
+        height:100% !important;
+        width:100% !important;
+        position:absolute;
+    }
+}
+

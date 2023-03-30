@@ -1,0 +1,58 @@
+.branch {
+    padding-top: 3%;
+    
+
+    // .branch__container
+
+    &__container {
+    }
+
+    // .branch__content
+
+    &__content {
+    }
+
+    // .branch__departament
+
+    &__departament {
+    }
+    &__item{
+        display: grid;
+
+        grid-template-columns: repeat(4, 22%);
+        gap: 62px;
+    }
+    // .branch__list
+
+    &__list { 
+      
+       
+    }
+    &__link:hover{
+        -webkit-transform: translateY(-7px);
+        transform: translateY(-7px);
+        transition: 1s;
+    }
+    &__link{ 
+        color: white;
+        text-align: center;
+        padding: 40px;
+         background-color: #4fb5e6;
+          border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        transition: 1s;
+       font-size: 18px;
+
+
+    } 
+    &__title {
+        padding-bottom: 5%;
+    }
+}
+.container {
+}
+.content {
+}
+
+
+

@@ -1,0 +1,109 @@
+.icon-reviews {
+  display: flex;
+  margin-left: 10%;
+  
+  }
+  .reviews-title {
+      margin-top: 4%;
+      margin-left: 20%;
+      font-size: 20px;
+      font-weight: 700;
+  
+  }
+  .reviews-text {
+      margin-left: 10%;
+      margin-top: 5%;
+      font-size: 16px;
+  }
+  .itc-slider-item {
+  }
+  .bx-right-arrow-alt{
+      font-size: 35px;
+  }
+
+
+.itc-slider {
+  position: relative;
+  
+
+
+}
+
+.itc-slider__wrapper {
+  overflow: hidden;
+}
+
+.itc-slider__items {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+
+}
+
+.itc-slider__transition-none {
+  transition: none;
+}
+
+.itc-slider__item {
+  // max-width: 100%;
+  flex: 0 0  100%;
+  padding: 40px 40px;
+  width: 150px;
+  user-select: none;
+  will-change: transform;
+  counter-increment: slide;
+  height: 300px;
+
+}
+
+/* кнопки влево и вправо */
+.itc-slider__btn {
+
+  position: absolute;
+  top: 50%;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.itc-slider__btn_hide {
+  display: none;
+}
+
+.itc-slider__btn_prev {
+  background-color: #00AFDC;
+
+
+  left: -20px;
+}
+
+.itc-slider__btn_next {
+  background-color: #00AFDC;
+  right: -20px;
+}
+
+.slider {
+  margin-top: 3%;
+  margin-bottom: 10%;
+  background-color: #F8F8FF;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #00AFDC;
+
+  z-index: 99;
+
+}
+.bx-right-arrow-alt{
+font-size: 30px;
+color: #F8F8FF;
+}
+.bx-left-arrow-alt{
+font-size: 30px;
+color: #F8F8FF;
+}

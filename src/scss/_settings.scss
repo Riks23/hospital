@@ -1,0 +1,45 @@
+*{
+
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+.container{
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
+}
+ol {
+    margin: 0;
+    list-style: none;
+}
+.title-page{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+.page{
+    color: #9999;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 10%;
+}
+.page>p>a{
+    color: #0098be;
+}
+.body-page{
+    background-color:#efefef;
+}
+

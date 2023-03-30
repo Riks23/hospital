@@ -1,0 +1,43 @@
+.terapev {
+    padding-top: 3%;
+
+    // .terapev__container
+
+    &__container {
+
+    }
+
+    // .terapev__content
+
+    &__content {
+        
+    }
+
+    // .terapev__item
+
+    &__item {
+        padding-bottom: 3%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .terapev__image
+
+    &__image {
+        max-width: 750px;
+    }
+
+
+
+    &__address {
+        letter-spacing: 1px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+
+    // .terapev__text
+
+}
+.terapev-img {
+    width: 100%;
+}

@@ -1,0 +1,63 @@
+.warranty {
+    padding-top: 3%;
+
+    // .warranty__title
+
+    &__title {
+        max-width: 1574px;
+        font-size: 18px;
+        font-weight: 700;
+        background-color: #4fb5e6;
+        padding: 10px 20px;
+        border-radius: 24px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    &__title-text{
+        max-width: 1574px;
+        font-size: 18px;
+        font-weight: 700;
+        background-color: #4fb5e6;
+        padding: 10px 20px;
+        border-radius: 24px;
+        line-height: 40px;
+        color: white;
+    }
+
+    // .warranty__text
+
+    &__text {
+        color: #616D76;
+        max-width: 1574px;
+        font-weight: 600;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+        
+    }
+}
+.smoke{
+    padding-top: 3%;
+    &__content{
+         display: flex;
+    justify-content: space-between;
+    }
+   
+
+    &__image{
+        max-width: 700px;
+
+    }
+    &__text{
+        max-width: 700px;
+        font-size: 20px;
+    }
+}
+.smoke-image{
+    width: 100%;
+
+}

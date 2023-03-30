@@ -1,0 +1,66 @@
+
+.reception {
+padding-top: 3%;
+    // .reception__container
+
+    &__container {
+    }
+
+    // .reception__content
+
+    &__content {
+
+
+    }
+
+    // .reception__row
+
+    &__row {
+        border-top: 0.5px solid #0098be;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    // .reception__image
+
+    &__image {
+        width: 150px;
+    }
+
+    // .reception__action
+
+    &__action {
+        text-align: center;
+
+        font-weight: 700;
+        font-size: 18px;
+
+    }
+
+    // .reception__text
+
+    &__text {
+        font-size: 18px;
+        max-width: 350px;
+    }
+}
+.container {
+}
+.content {
+}
+.reception-image {
+    width: 100%;
+}
+.action-link {
+    color: #02a8d1 ;
+}
+.text__title{
+    padding: 0px 20px;
+    background-color: #0098be;
+    color: white;
+    display: inline;
+
+}
