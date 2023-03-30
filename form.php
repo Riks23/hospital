@@ -51,7 +51,7 @@
         $message='Ошибка';
     }
     else{
-        $message='Привет письмо отправленно!'
+        $message='Привет письмо отправленно!';
     }
     $response=['message'=>$message];
     header('Content-type: application/json');
